@@ -5,7 +5,7 @@
       <draggable
         class="dragArea list-group"
         :list="list1"
-        :group="{ name: 'people', pull: 'clone', put: false }"
+        :group="{ name: 'people', pull: 'clone', put: true }"
         @change="log"
       >
         <div
